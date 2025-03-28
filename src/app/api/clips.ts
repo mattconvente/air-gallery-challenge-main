@@ -21,6 +21,7 @@ export interface Clip {
   updatedAt: string;
   title?: string;
   description?: string;
+  displayName?: string;
   importedName?: string;
   duration?: number;
   height: number;
